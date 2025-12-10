@@ -1,0 +1,191 @@
+{
+  "classification": {
+    "Adult Census": {
+      "XGBoost": {
+        "AUC": 0.916635239781877,
+        "Accuracy": 0.8619999999999999,
+        "F1-Score": 0.6991611197254712,
+        "Training Time (s)": 0.9793613910675049,
+        "Memory (MB)": 0.13671875
+      },
+      "LightGBM": {
+        "AUC": 0.9165082891844293,
+        "Accuracy": 0.8667999999999999,
+        "F1-Score": 0.7089341477851198,
+        "Training Time (s)": 0.05605473518371582,
+        "Memory (MB)": 0.01171875
+      },
+      "Random Forest": {
+        "AUC": 0.8966302022558874,
+        "Accuracy": 0.8516,
+        "F1-Score": 0.6805256587470754,
+        "Training Time (s)": 0.3190177917480469,
+        "Memory (MB)": 2.9453125
+      },
+      "Neural Network": {
+        "AUC": 0.9021838374613514,
+        "Accuracy": 0.845,
+        "F1-Score": 0.6604913793316641,
+        "Training Time (s)": 0.9291805267333985,
+        "Memory (MB)": 0.11328125
+      },
+      "Logistic/Linear": {
+        "AUC": 0.9059605776016314,
+        "Accuracy": 0.8484,
+        "F1-Score": 0.671280495009842,
+        "Training Time (s)": 0.07789278030395508,
+        "Memory (MB)": 0.1015625
+      }
+    },
+    "Credit Fraud": {
+      "XGBoost": {
+        "AUC": 0.9853539833949558,
+        "Accuracy": 0.9964000000000001,
+        "F1-Score": 0.7741075917546505,
+        "Training Time (s)": 0.6190171241760254,
+        "Memory (MB)": 0.04296875
+      },
+      "LightGBM": {
+        "AUC": 0.9850777980979253,
+        "Accuracy": 0.9964000000000001,
+        "F1-Score": 0.7781045751633987,
+        "Training Time (s)": 0.15269823074340821,
+        "Memory (MB)": 0.0
+      },
+      "Random Forest": {
+        "AUC": 0.935901292190454,
+        "Accuracy": 0.9968,
+        "F1-Score": 0.8113955703738986,
+        "Training Time (s)": 0.5034729957580566,
+        "Memory (MB)": 1.57421875
+      },
+      "Neural Network": {
+        "AUC": 0.9155460331412195,
+        "Accuracy": 0.9962,
+        "F1-Score": 0.7611344537815126,
+        "Training Time (s)": 0.5534589767456055,
+        "Memory (MB)": 0.453125
+      },
+      "Logistic/Linear": {
+        "AUC": 0.9906271829594697,
+        "Accuracy": 0.9960000000000001,
+        "F1-Score": 0.7566858322276279,
+        "Training Time (s)": 0.022079896926879884,
+        "Memory (MB)": 0.08203125
+      }
+    },
+    "Wine Quality": {
+      "XGBoost": {
+        "AUC": 0.5,
+        "Accuracy": 0.5,
+        "F1-Score": 0.5,
+        "Training Time (s)": 0.0,
+        "Memory (MB)": 0.0
+      },
+      "LightGBM": {
+        "AUC": 0.5,
+        "Accuracy": 0.0024000000000000002,
+        "F1-Score": 0.001056303042501381,
+        "Training Time (s)": 0.4376692771911621,
+        "Memory (MB)": 0.0
+      },
+      "Random Forest": {
+        "AUC": 0.5,
+        "Accuracy": 0.6606000000000001,
+        "F1-Score": 0.4076337164755975,
+        "Training Time (s)": 0.4155268669128418,
+        "Memory (MB)": 16.40625
+      },
+      "Neural Network": {
+        "AUC": 0.5,
+        "Accuracy": 0.551,
+        "F1-Score": 0.24722273840942335,
+        "Training Time (s)": 0.8165409564971924,
+        "Memory (MB)": 0.015625
+      },
+      "Logistic/Linear": {
+        "AUC": 0.5,
+        "Accuracy": 0.5336000000000001,
+        "F1-Score": 0.2608666089431229,
+        "Training Time (s)": 0.17746691703796386,
+        "Memory (MB)": 0.7734375
+      }
+    }
+  },
+  "regression": {
+    "Boston Housing": {
+      "XGBoost": {
+        "R\u00b2": 0.7743967107590889,
+        "MAE": 0.3793350977410507,
+        "RMSE": 0.5360665540066598,
+        "Training Time (s)": 0.16281657218933104,
+        "Memory (MB)": 0.0
+      },
+      "LightGBM": {
+        "R\u00b2": 0.7768158533395386,
+        "MAE": 0.37531608288343626,
+        "RMSE": 0.5334971699535025,
+        "Training Time (s)": 0.036996889114379886,
+        "Memory (MB)": 0.03125
+      },
+      "Random Forest": {
+        "R\u00b2": 0.7409476678953593,
+        "MAE": 0.4189434634500001,
+        "RMSE": 0.575210391045346,
+        "Training Time (s)": 0.23185229301452637,
+        "Memory (MB)": 7.4375
+      },
+      "Neural Network": {
+        "R\u00b2": 0.7276121250269622,
+        "MAE": 0.4244526814512371,
+        "RMSE": 0.5901696283459231,
+        "Training Time (s)": 0.543663215637207,
+        "Memory (MB)": 0.07421875
+      },
+      "Logistic/Linear": {
+        "R\u00b2": 0.5700265176484333,
+        "MAE": 0.5292666419886097,
+        "RMSE": 0.7385465532408071,
+        "Training Time (s)": 0.001212739944458008,
+        "Memory (MB)": 0.26171875
+      }
+    },
+    "California Housing": {
+      "XGBoost": {
+        "R\u00b2": 0.7749402396199535,
+        "MAE": 0.3766213092833519,
+        "RMSE": 0.554511711131492,
+        "Training Time (s)": 0.16262378692626953,
+        "Memory (MB)": 0.16015625
+      },
+      "LightGBM": {
+        "R\u00b2": 0.7837080298304049,
+        "MAE": 0.3672756342076142,
+        "RMSE": 0.54443953793633,
+        "Training Time (s)": 0.04160737991333008,
+        "Memory (MB)": 0.0078125
+      },
+      "Random Forest": {
+        "R\u00b2": 0.7455887491882244,
+        "MAE": 0.41613752300000006,
+        "RMSE": 0.5902276394586685,
+        "Training Time (s)": 0.2307741641998291,
+        "Memory (MB)": 7.64453125
+      },
+      "Neural Network": {
+        "R\u00b2": 0.38554379031095215,
+        "MAE": 0.4513511269491916,
+        "RMSE": 0.9728735219685921,
+        "Training Time (s)": 0.6378177642822266,
+        "Memory (MB)": 0.01171875
+      },
+      "Logistic/Linear": {
+        "R\u00b2": 0.2862275130718966,
+        "MAE": 0.6477068703433104,
+        "RMSE": 2.829000566912741,
+        "Training Time (s)": 0.0012000083923339843,
+        "Memory (MB)": 0.25
+      }
+    }
+  }
+}
